@@ -1,0 +1,28 @@
+.pai {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.container2 {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.container3 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.container4 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
