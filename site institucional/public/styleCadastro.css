@@ -1,0 +1,74 @@
+.login {
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.login .container .card .formulario .campo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.login .container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.login .container .card h2 {
+    margin-left: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.login .container .card label {
+    color: black;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    outline: none;
+}
+
+.login .container .card input {
+    width: 200%;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border-radius: 5px;
+    border-color: aqua;
+    padding: 7px;
+}
+
+.login .container .campo {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: crimson;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+

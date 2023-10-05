@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tela de Login </title>
+    <title> Tela de Cadastro </title>
     <link rel="stylesheet" href="styleHome.css">
     <link rel="stylesheet" href="styleCadastro.css">
 </head>
 <body>
-
     <div class="header">
         <div class="container">
             <h1>
@@ -18,8 +17,8 @@
             <ul>
                 <li> <a href="index.html"> Home </a></li>
                 <li> <a href="index.html"> Sobre Nós </a> </li>
-                <li> <a href="cadastro.html"> Cadastro </a>  </li>
-                <li> Login </li>
+                <li> Cadastro </li>
+                <li> <a href="login.html"> Login </a>  </li>
             </ul>
         </div>
     </div>
@@ -33,9 +32,14 @@
         
                     <div class="card">
 
-                        <h2> Login </h2>
+                        <h2> Bem vindo! </h2>
                         
                         <div class="formulario">
+
+                            <div class="campo">
+                                <label for="nome"> Nome: </label>
+                                <input placeholder="Seu nome:"> 
+                            </div>
         
                             <div class="campo">
                                 <label for="email"> Email: </label>
@@ -53,7 +57,7 @@
                              </div>
         
                             <button class="botao" onclick="clicar()">
-                                Entrar
+                                Cadastrar
                             </button>
         
                         </div>
@@ -64,5 +68,8 @@
     </div>
 
   
+
+
+
 </body>
 </html>
